@@ -1,0 +1,63 @@
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id,)
+VALUES
+    (1, 'John', 'Doe', 1, NULL),
+    (2, 'Jane', 'Doe', 2, 1),
+    (3, 'Alice', 'Doe', 3, 1),
+    (4, 'Bob', 'Doe', 4, 2),
+    (5, 'Charlie', 'Doe', 5, 2),
+    (6, 'David', 'Doe', 6, 3),
+    (7, 'Eve', 'Doe', 7, 3),
+    (8, 'Frank', 'Doe', 8, 4),
+    (9, 'Grace', 'Doe', 9, 4),
+    (10, 'Heidi', 'Doe', 10, 5),
+    (11, 'Ivan', 'Doe', 11, 5),
+    (12, 'Jill', 'Doe', 12, 6),
+    (13, 'Kevin', 'Doe', 13, 6),
+    (14, 'Linda', 'Doe', 14, 7),
+    (15, 'Michael', 'Doe', 15, 7),
+    (16, 'Nancy', 'Doe', 16, 8),
+    (17, 'Oscar', 'Doe', 17, 8),
+    (18, 'Patty', 'Doe', 18, 9),
+    (19, 'Quincy', 'Doe', 19, 9),
+    (20, 'Randy', 'Doe', 20, 10),
+    (21, 'Sally', 'Doe', 21, 10),
+    (22, 'Tom', 'Doe', 22, 11),
+    (23, 'Ursula', 'Doe', 23, 11),
+    (24, 'Victor', 'Doe', 24, 12),
+    (25, 'Wendy', 'Doe', 25, 12);
+
+INSERT INTO role (id, title, salary, department_id) 
+VALUES
+    (1, 'CEO', 1000000, 1),
+    (2, 'CFO', 500000, 1),
+    (3, 'COO', 500000, 1),
+    (4, 'VP of Sales', 250000, 2),
+    (5, 'VP of Marketing', 250000, 2),
+    (6, 'VP of Engineering', 250000, 3),
+    (7, 'VP of HR', 250000, 3),
+    (8, 'Director of Sales', 150000, 4),
+    (9, 'Director of Marketing', 150000, 4),
+    (10, 'Director of Engineering', 150000, 5),
+    (11, 'Director of HR', 150000, 5),
+    (12, 'Sales Manager', 100000, 6),
+    (13, 'Marketing Manager', 100000, 6),
+    (14, 'Engineering Manager', 100000, 7),
+    (15, 'HR Manager', 100000, 7),
+    (16, 'Salesperson', 75000, 8),
+    (17, 'Marketer', 75000, 8),
+    (18, 'Engineer', 75000, 9),
+    (19, 'HR Specialist', 75000, 9),
+    (20, 'Salesperson', 75000, 10),
+    (21, 'Marketer', 75000, 10),
+    (22, 'Engineer', 75000, 11),
+    (23, 'HR Specialist', 75000, 11),
+    (24, 'Salesperson', 75000, 12),
+    (25, 'Marketer', 75000, 12);
+
+    INSERT INTO department (id, name)
+    VALUES
+        (1, 'Executive'),
+        (2, 'Sales'),
+        (3, 'Marketing'),
+        (4, 'Engineering'),
+        (5, 'HR');  
